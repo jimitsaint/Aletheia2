@@ -28,7 +28,7 @@ function Home() {
             className="text-4xl md:text-6xl font-bold"
             style={{ fontSize: '2.5rem', lineHeight: 1.1, fontWeight: 900 }}
           >
-            Alternativ HipHop om Ljus och mörker
+            Alternativ HipHop
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 10 }}
@@ -36,7 +36,7 @@ function Home() {
             transition={{ duration: 0.6, delay: 0.05 }}
             style={{ marginTop: '1rem', color: '#d4d4d8', maxWidth: '40rem' }}
           >
-            Officiell sida (utkast). Lyssna, se video och få nyheter först – innan något publiceras.
+            Officiell sida för Jimi T Saint
           </motion.p>
           <div className="mt-6" style={{ display: 'flex', gap: '0.75rem', marginTop: '1.5rem', flexWrap: 'wrap' }}>
             <Link to="/musik" style={{ background: '#fff', color: '#000', padding: '0.75rem 1.25rem', borderRadius: '1rem', fontWeight: 600 }}>
@@ -64,13 +64,13 @@ export default function App() {
       <div className="min-h-screen bg-black text-zinc-100"> 
         <Link to="/">
   <img 
-    src="/altheiagrå1.png" 
+    src="/aletheiagenomsk.png" 
     alt="Aletheia logotyp" 
     style={{
       position: 'fixed',
       top: '20px',
       left: '20px',
-      width: '120px',
+      width: '180px',
       height: 'auto',
       opacity: 0.9,
       filter: 'drop-shadow(0 0 6px rgba(255,255,255,0.25))',
