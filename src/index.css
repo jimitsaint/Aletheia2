@@ -1,0 +1,41 @@
+/* Minimal styling so saker ser ok ut utan Tailwind-konfiguration */
+* { box-sizing: border-box; }
+a { color: #fff; }
+.text-zinc-100 { color: #f4f4f5; }
+.text-zinc-200 { color: #e4e4e7; }
+.text-zinc-300 { color: #d4d4d8; }
+.text-zinc-400 { color: #a1a1aa; }
+.text-white { color: #fff; }
+.bg-black { background: #000; }
+.border-zinc-800 { border-color: #27272a; }
+.rounded-3xl { border-radius: 1.5rem; }
+.rounded-2xl { border-radius: 1rem; }
+.font-bold { font-weight: 700; }
+.font-semibold { font-weight: 600; }
+.max-w-6xl { max-width: 72rem; }
+.mx-auto { margin-left: auto; margin-right: auto; }
+.px-4 { padding-left: 1rem; padding-right: 1rem; }
+.py-4 { padding-top: 1rem; padding-bottom: 1rem; }
+.py-20 { padding-top: 5rem; padding-bottom: 5rem; }
+.mt-6 { margin-top: 1.5rem; }
+.mt-10 { margin-top: 2.5rem; }
+.mb-6 { margin-bottom: 1.5rem; }
+.h-12 { height: 3rem; }
+.h-20 { height: 5rem; }
+.w-full { width: 100%; }
+.aspect-\[4\/5\] { aspect-ratio: 4 / 5; }
+.object-cover { object-fit: cover; }
+.grid { display: grid; }
+.items-center { align-items: center; }
+.gap-6 { gap: 1.5rem; }
+.hidden { display: none; }
+@media (min-width: 768px) {
+  .md\:grid-cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .md\:flex { display: flex; }
+  .md\:mt-0 { margin-top: 0; }
+  .md\:h-20 { height: 5rem; }
+}
+/* Simple header stickiness */
+.sticky { position: sticky; }
+.top-0 { top: 0; }
+.border-b { border-bottom: 1px solid #27272a; }
