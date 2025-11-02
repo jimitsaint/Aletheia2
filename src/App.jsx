@@ -82,7 +82,7 @@ export default function App() {
         <header className="sticky top-0 border-b" style={{ backdropFilter: 'blur(6px)', background: 'rgba(0,0,0,0.5)' }}>
           <div className="mx-auto max-w-6xl px-4 py-4" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
             <Link to="/">
-              <img src="/OrnamenteradAletheia.png" alt="Aletheia logo" className="h-12 md:h-20" />
+              <img src="/aletheiagenomsk.png" alt="Aletheia logo" className="h-12 md:h-20" />
             </Link>
             <nav className="hidden md:flex items-center gap-6">
               <NavLink to="/musik">Musik</NavLink>
