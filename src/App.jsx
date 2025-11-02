@@ -49,7 +49,7 @@ function Home() {
         </div>
         <motion.div initial={{ opacity: 0, scale: 0.98 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.6 }} className="mt-10 md:mt-0">
           <div className="aspect-[4/5] w-full rounded-3xl border border-zinc-800" style={{ overflow: 'hidden' }}>
-            <img src="/cover.png" alt="Omslagsbild" className="h-full w-full object-cover" />
+            <img src="/aletheiagenomsk.png" alt="Omslagsbild" className="h-full w-full object-cover" />
           </div>
           <p className="mt-3 text-sm text-zinc-400">Byt detta fält mot omslag eller pressbild.</p>
         </motion.div>
@@ -64,7 +64,7 @@ export default function App() {
       <div className="min-h-screen bg-black text-zinc-100"> 
         <Link to="/">
   <img 
-    src="/aletheiagenomsk.png" 
+    src="/jimitsaintgenomskin.png" 
     alt="Aletheia logotyp" 
     style={{
       position: 'fixed',
