@@ -70,7 +70,7 @@ export default function App() {
       position: 'fixed',
       top: '20px',
       left: '20px',
-      width: '260px',
+      width: '330px',
       height: 'auto',
       opacity: 0.9,
       filter: 'drop-shadow(0 0 6px rgba(255,255,255,0.25))',
