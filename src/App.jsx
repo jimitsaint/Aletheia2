@@ -61,7 +61,24 @@ function Home() {
 export default function App() {
   return (
     <Router>
-      <div className="min-h-screen bg-black text-zinc-100">
+      <div className="min-h-screen bg-black text-zinc-100"> 
+        <Link to="/">
+  <img 
+    src="/altheiagrå1.png" 
+    alt="Aletheia logotyp" 
+    style={{
+      position: 'fixed',
+      top: '20px',
+      left: '20px',
+      width: '120px',
+      height: 'auto',
+      opacity: 0.9,
+      filter: 'drop-shadow(0 0 6px rgba(255,255,255,0.25))',
+      zIndex: 1000,
+      cursor: 'pointer', // gör så muspekaren blir klick-symbol
+    }}
+  />
+</Link>
         <header className="sticky top-0 border-b" style={{ backdropFilter: 'blur(6px)', background: 'rgba(0,0,0,0.5)' }}>
           <div className="mx-auto max-w-6xl px-4 py-4" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
             <Link to="/">
