@@ -1,3 +1,4 @@
+import DiktDetalj from "./pages/DiktDetalj.jsx";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
