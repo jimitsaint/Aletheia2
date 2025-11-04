@@ -104,7 +104,8 @@ export default function App() {
             <Route path="/blogg" element={<Blogg />} />
             <Route path="/om" element={<Om />} />
             <Route path="/lankar" element={<Lankar />} />
-            <Route path="/kontakt" element={<Kontakt />} />
+            <Route path="/kontakt" element={<Kontakt />} /> 
+            <Route path="/dikter/:slug" element={<DiktDetalj />} />
           </Routes>
         </main>
       </div>
